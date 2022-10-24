@@ -6,8 +6,16 @@ import java.util.List;
 import java.util.Random;
 
 public class MatrixAddition {
+    /*
+    * The Function MatricAddition()
+    * Takes in one parameter which is an Int type
+    * It declares 2 BigInteger variables (to deal with the bigger m), 2 index variables, and a Matrix
+    * it initializes the 2D matrix with 1
+    * This function then executes the algorithm on page 126
+    *
+    */
     void MatricAdditionForN(int n){
-        BigInteger m=new BigInteger("13421772800");
+        BigInteger m=new BigInteger("1677721600");
         BigInteger numCounter = new BigInteger("0");
         int additionMatrix[][]=new int [n][n];
         int firstNum, SecondNum, x;
